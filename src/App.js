@@ -5,15 +5,6 @@ import UserData from './UserData';
 import { containerStyle, headerStyle, tableStyle, thStyle, tdStyle, rowStyle } from './styles';  // Corrected import statement
 
 const API = 'https://api.restful-api.dev/objects';
-
-<input
-  type="text"
-  placeholder="Search..."
-  value={searchQuery}
-  onChange={handleSearchChange}
-  style={{ marginBottom: '1rem', padding: '0.5rem', borderRadius: '4px', border: '1px solid #ccc' }}
-/>
-
 const App = () => {
   const [users, setUsers] = useState([]);
 
